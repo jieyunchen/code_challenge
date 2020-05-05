@@ -1,0 +1,4 @@
+
+build:
+  ci:
+    - newman run test.postman_collection.json 
