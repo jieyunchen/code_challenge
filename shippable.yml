@@ -1,6 +1,4 @@
 
 build:
   ci:
-    - cd /tmp
-    - mkdir jieyun
-    - newman run test.postman_collection.json 
+    - node_modules/newman/bin/newman.js run test/test.postman_collection.json  
